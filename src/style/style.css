@@ -48,6 +48,9 @@
     flex-wrap: wrap;
     height: 100%;
     width: 33.3%;
+    transition:   .4s;
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
 }
 .head-navbar li:hover{
     border-top: 2px solid #000000; 
