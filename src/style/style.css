@@ -191,6 +191,7 @@
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
+    padding: 0 10px;
 }
 .categories-img{
     width: 100%;
@@ -235,7 +236,6 @@
     background: #181D28;
     flex-direction: row;
     justify-content: space-between;
-    flex-wrap: wrap;
     padding: 35px;
 }
 .menu-page{
@@ -253,4 +253,30 @@
     line-height: 24px;
     color: #FFFFFF;
     text-decoration: none;
+}
+@media (max-width: 621px){
+    .head-sect{
+        flex-direction: column;
+        margin: 20px 0;
+    }
+    .head-menu{
+        margin: 0;
+    }
+}
+@media (max-width: 440px){
+    .banner-menu li a{
+        font-size: 14px;
+    }
+    .categories-title{
+        text-align: center;
+    }
+    .description-title{
+        text-align: center;
+    }
+}
+@media (max-width: 362px){
+    .footer-description{
+        flex-direction: column;
+        gap: 15px;
+    }
 }
